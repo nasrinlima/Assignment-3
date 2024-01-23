@@ -35,10 +35,10 @@
       </script>
 
 </head>
-<body class="container mx-auto">
+<body class="container mx-auto, lg:mx-auto">
     <header>
         <nav>
-            <div class="navbar ">
+            <div class="navbar mx-auto ">
                 <div class="navbar-start">
                   <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -75,48 +75,126 @@
     <main>
         <!-- slider area -->
         <section class="slider mt-10">
-            <div class="carousel w-full rounded-2xl">
+            <div class="carousel sm:w-96, lg:w-full h-full rounded-2xl">
                 <div id="slide1" class="carousel-item relative w-full">
-                  <img src="Images/1.png" class="w-full h-5/6" />
-                  <div class="absolute flex transform -translate-y-1/2 left-5 right-5 top-96 gap-3 justify-between">
-                    <div class="mt-36">
+                  <img src="Images/1.png" class="w-full sm:h-5/6, lg:h-5/6" />
+                  <div class="absolute flex lg:transform -translate-y-1/2 left-5 right-5 top-96 gap-3 justify-between">
+                    <div class="sm:ml-32, lg:mt-36">
                         <a href="#slide3" class="btn btn-circle bg-hockey hover:bg-primary text-white">❮</a> 
                         <a href="#slide2" class="btn btn-circle bg-hockey hover:bg-primary text-white">❯</a>
                     </div>
-                    <div class="bg-hockey rounded-2xl w-3/6 h-40 text-white p-4 opacity-80 mt-12">
+                    <div class="sm:hidden, lg:bg-hockey rounded-2xl w-3/6 h-40 text-white p-4 opacity-80 mt-12">
                         <h1 class="font-bold text-xl pt-4 font-family">Meet all the heroes from the field</h1>
                         <p class="font-normal text-base pt-3 font-family">These heroes go beyond their prowess on the ice; they embody the values of sportsmanship, leadership, and a relentless pursuit of excellence.</p> 
                     </div>
                   </div>
                 </div> 
                 <div id="slide2" class="carousel-item relative w-full">
-                  <img src="Images/2.jpg" class="w-full h-5/6" />
-                  <div class="absolute flex transform -translate-y-1/2 left-5 right-5 top-96 gap-3 justify-between">
-                        <div class="mt-36">
+                  <img src="Images/2.jpg" class="w-full h-96 lg:h-5/6" />
+                  <div class="absolute flex lg:transform -translate-y-1/2 left-5 right-5 top-96 gap-3 justify-between">
+                        <div class="lg:mt-36">
                             <a href="#slide1" class="btn btn-circle bg-hockey hover:bg-primary text-white">❮</a> 
                             <a href="#slide3" class="btn btn-circle bg-hockey hover:bg-primary text-white">❯</a>
                         </div>
-                        <div class="bg-hockey rounded-2xl w-3/6 h-40 text-white p-4 opacity-80 mt-12">
+                        <div class="sm:hidden, lg:bg-hockey rounded-2xl w-3/6 h-40 text-white p-4 opacity-80 mt-12">
                             <h1 class="font-bold text-xl pt-4 font-family">Meet all the heroes from the field</h1>
                             <p class="font-normal text-base pt-3 font-family">These heroes go beyond their prowess on the ice; they embody the values of sportsmanship, leadership, and a relentless pursuit of excellence.</p> 
                         </div>
                   </div>
                 </div> 
-                <div id="slide3" class="carousel-item relative w-full">
-                  <img src="Images/p.jpg" class="w-full h-5/6" />
-                  <div class="absolute flex  transform -translate-y-1/2 left-8 right-5 top-96 gap-3 justify-between">
-                    <div class="mt-36">
+            <div id="slide3" class="carousel-item relative w-full">
+                  <img src="Images/p.jpg" class="w-full h-96 lg:h-5/6" />
+                <div class="absolute flex  lg:transform -translate-y-1/2 left-8 right-5 top-96 gap-3 justify-between">
+                    <div class="lg:mt-36">
                         <a href="#slide2" class="btn btn-circle bg-hockey hover:bg-primary text-white">❮</a> 
-                        <a href="#slide1" class="btn btn-circle bg-hockey hover:bg-primary text-white">❯</a>
+                        <a href="#slide1git branch -M main
+                        " class="btn btn-circle bg-hockey hover:bg-primary text-white">❯</a>
                     </div>
-                    <div class="bg-hockey rounded-2xl w-3/6 h-40 text-white p-4 opacity-80 mt-12">
+                    <div class="sm:hidden, lg:bg-hockey rounded-2xl w-3/6 h-40 text-white p-4 opacity-80 mt-12">
                         <h1 class="font-bold text-xl pt-4 font-family">Meet all the heroes from the field</h1>
-                        <p class="font-normal text-base pt-3 font-family">These heroes go beyond their prowess on the ice; they embody the values of sportsmanship, leadership, and a relentless pursuit of excellence.</p> 
+                        <p class="font-normal text-sm pt-3 font-family">These heroes go beyond their prowess on the ice; they embody the values of sportsmanship, leadership, and a relentless pursuit of excellence.</p> 
                     </div>
                 </div>
             </div> 
         </section>
-        <!-- Professional Hockeys Club -->
+        <!-- Progressing area -->
+        <section class="sm:w-96, lg:w-full">
+            <div class="1st">
+                <div class="text-center">
+                  <div class="lg:max-w-full">
+                    <h1 class="font-family text-4xl font-extrabold">Professional Hockeys Club</h1>
+                    <p class="pt-6 px-60 font-family text-base">These heroes go beyond their prowess on the ice; they embody the values of sportsmanship, leadership, and a relentless pursuit of excellence.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="lg:flex gap-10 mt-10">
+                <div class="text-center">
+                    <div class="radial-progress text-primary rotate-90" style="--value:87;" role="progressbar"><span class="text-hockey font-family font-extrabold text-xl -rotate-90">87%</span></div>
+                    <h1 class="font-family my-4 font-semibold text-xl">Prayer Facility</h1>
+                    <p class="font-family text-sm">In the hockey community, legends are born through unforgettable goals, crucial assists, and moments of sheer brilliance. </p>
+                </div>
+                <div class="text-center">
+                    <div class="radial-progress text-[#49D293] rotate-90" style="--value:95;" role="progressbar"><span class="text-hockey font-family font-extrabold text-xl -rotate-90">95%</span></div>
+                    <h1 class="font-family my-4 font-semibold text-xl">Experienced Coach</h1>
+                    <p class="font-family text-sm">In the hockey community, legends are born through unforgettable goals, crucial assists, and moments of sheer brilliance. </p>
+                </div>
+                <div class="text-center">
+                    <div class="radial-progress text-[#FFB546] rotate-90" style="--value:90;" role="progressbar"><span class="text-hockey font-family font-extrabold text-xl -rotate-90">90%</span></div>
+                    <h1 class="font-family my-4 font-semibold text-xl">Senior Player</h1>
+                    <p class="font-family text-sm">In the hockey community, legends are born through unforgettable goals, crucial assists, and moments of sheer brilliance. </p>
+                </div>
+                <div class="text-center">
+                    <div class="radial-progress text-[#4C8DF1] rotate-90" style="--value:80;" role="progressbar"><span class="text-hockey font-family font-extrabold text-xl -rotate-90">80%</span></div>
+                    <h1 class="font-family my-4 font-semibold text-xl">Training Ground</h1>
+                    <p class="font-family text-sm">In the hockey community, legends are born through unforgettable goals, crucial assists, and moments of sheer brilliance. </p>
+                </div>
+            </div>
+        </section>
+        <!--  -->
+        <section>
+            <div class="1st mt-40">
+                <div class="text-center">
+                  <div class="lg:max-w-full">
+                    <h1 class="font-family text-4xl font-extrabold">Program Sections</h1>
+                    <p class="pt-6 px-60 font-family text-base">Beyond the rinks and stadiums, these heroes inspire the next generation, instilling a love for the sport and fostering a sense of pride in the hockey tradition.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="mt-16 grid grid-cols-2 gap-8 w-full h-80">
+                <div class="hero h-80 rounded-2xl" style="background-image: url(Images/2.png);">
+                    <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
+                    <div class="hero-content text-neutral-content mt-20 ">
+                      <div class="max-w-md">
+                        <h1 class="mb-5 text-3xl font-bold font-family">Junior Program</h1>
+                        <p class="mb-5 font-family text-sm">Hockey, a thrilling and fast-paced sport, captivates fans around the world with its intense competition and skillful plays.</p>
+                        <button class="btn bg-primary border-none text-white font-family ">Register Now!</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hero h-80 rounded-2xl" style="background-image: url(Images/3.png);">
+                    <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
+                    <div class="hero-content text-neutral-content mt-20 ">
+                      <div class="max-w-md">
+                        <h1 class="mb-5 text-3xl font-bold font-family">Teenager Program</h1>
+                        <p class="mb-5 text-sm font-family">Hockey, a thrilling and fast-paced sport, captivates fans around the world with its intense competition and skillful plays.</p>
+                        <button class="btn bg-primary border-none text-white font-family ">Register Now!</button>
+                      </div>
+                    </div>
+                  </div>  
+            </div>
+            <div class="mt-8">
+                <div class="hero h-80 rounded-2xl" style="background-image: url(Images/4.png);">
+                    <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
+                    <div class="hero-content text-neutral-content mt-20 ">
+                      <div class="justify-start mx-20">
+                        <h1 class="mb-5 text-3xl font-bold font-family">Professional Program</h1>
+                        <p class="mb-5 text-sm font-family mr-40">Ice hockey, one of the most popular variants, showcases the grace of skaters, the precision of puck handling, and the agility of goaltenders.</p>
+                        <button class="btn bg-primary border-none text-white font-family ">Register Now!</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
     </main>
